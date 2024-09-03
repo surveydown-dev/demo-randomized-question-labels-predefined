@@ -1,2 +1,1 @@
-# demo-reactive-question-predefined
- Demo survey showcasing a reactive question with predefined *options*.
+A demo of how to implement [pre-defined randomization](https://surveydown.org/reactivity#pre-defined-randomization) in a surveydown survey.
