@@ -26,25 +26,6 @@ sd_question(
   reactive = TRUE
 )
 
-##################
-# database setup #
-##################
-
-# surveydown stores data on a database that you define at https://supabase.com/
-# To connect to a database to store the survey data, update this with details
-# from your supabase account and database. For this demo, we set pause = TRUE
-# which will ignore the other settings and won't attempt to connect to the database.
-# See documentation for details at https://surveydown.org/store-data
-
-db <- sd_database(
-  host   = "",
-  dbname = "",
-  port   = "",
-  user   = "",
-  table  = "",
-  pause  = TRUE
-)
-
 ################
 # config setup #
 ################
