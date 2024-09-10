@@ -22,8 +22,7 @@ sd_question(
   id = "q1",
   type = "mc",
   label = "Which of these numbers is the largest?",
-  option = q1_options,
-  reactive = TRUE
+  option = q1_options
 )
 
 ################

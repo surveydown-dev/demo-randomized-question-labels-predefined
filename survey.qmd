@@ -67,7 +67,7 @@ The random samples are grabbed from a **pre-defined** csv file.
 If you refresh the page, the options should change.
 
 ```{r}
-sd_display_question(id = "q1")
+sd_output("q1", type = "question")
 ```
 
 ```{r}
