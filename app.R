@@ -50,16 +50,9 @@ server <- function(input, output, session) {
     option = q1_options
   )
 
-  # Config setup
-  config <- sd_config()
-
-  # sd_server() initiates your survey - don't change it
+  # Database designation and other settings
   sd_server(
-    input   = input,
-    output  = output,
-    session = session,
-    config  = config,
-    db      = db
+    db = db
   )
 
 }

@@ -25,7 +25,7 @@ If you refresh the page, the options should change.
 
 ```{r}
 sd_output("q1", type = "question")
-sd_next(next_page = 'page2')
+sd_next()
 ```
 
 :::
@@ -34,7 +34,7 @@ sd_next(next_page = 'page2')
 
 This is another page in your survey.
 ```{r}
-sd_next(next_page = 'end')
+sd_next()
 ```
 
 :::
